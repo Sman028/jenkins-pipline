@@ -28,6 +28,7 @@ pipeline {
                 CHAT_ID="1075819048"
                 MESSAGE="Деплой приложения успешно завершен!"
                 curl -s -X POST https://api.telegram.org/bot$BOT_TOKEN/sendMessage -d text="$MESSAGE" -d chat_id=$CHAT_ID
+           }
         }
     }
 }
