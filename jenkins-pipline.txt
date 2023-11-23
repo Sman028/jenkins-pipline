@@ -24,6 +24,7 @@ pipeline {
             }
         stage(notification) {
             steps {
+                #!/bin/bash
                 BOT_TOKEN="6657148988:AAGZD6Jr1ymbfAH7gXNEwCMAMrrA2GQvc7w"
                 CHAT_ID="1075819048"
                 MESSAGE="Деплой приложения успешно завершен!"
